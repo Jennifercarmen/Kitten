@@ -1,0 +1,45 @@
+/******** KITTEN********/
+
+/* clases Especificas */
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-image:url('../assets/images/dawn.png') ;
+  background-repeat: no-repeat;
+  background-position: center center;  
+  background-size:cover;
+  background-attachment: fixed;
+}
+.img-gato {
+  background-image: url(../assets/images/kitten-large.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  margin-top: 53vh;
+  height: 45vh;
+}
+
+/* View table  */
+
+@media (min-width: 768px) {
+  body {
+    background-image:url('../assets/images/night.jpg') ;
+  }
+  .img-gato{
+    background-image: url('../assets/images/kitten-small.png') ; 
+  }
+}
+
+/* View Destopk */
+
+@media (min-width: 992px) {
+  body {
+  background-image:url('../assets/images/sunny-day.jpg') ;
+  }
+  .img-gato{
+    background-image: url('../assets/images/kitten-medium.png') ;
+  }
+}
